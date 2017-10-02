@@ -11,6 +11,18 @@ public class PTra01_04 {
 
 		// ★ float型の変数 f を宣言してください
 
+		float f;
+		f= 3.14F;
+
+		System.out.println(f);
+
+
+
+
+
+
+
+
 
 		// ★ 変数 f に 3.14 を代入してください
 
