@@ -11,7 +11,9 @@ public class PTra02_04 {
 		int d_num = 25;
 		System.out.println(d_num);
 
+
 		// ★ プログラムを修正して、d_numに50が入るようにしてください
+
 		d_num = d_num + d_num;
 
 		// ★ 以下のプログラムで50が出力されるようにしてください

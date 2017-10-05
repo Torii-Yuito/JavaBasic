@@ -34,5 +34,43 @@ public class PTra03_05 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
-	}
-}
+		if(100<num) {
+			System.out.println("不正な値が入力されました");
+		}else if(75<=num) {
+			System.out.println("雨が降る確率が高いです");
+
+		}else if(30<=num) {
+			System.out.println("雨が降るかもしれないです");
+		}
+
+		if(num<0) {
+			System.out.println("不正な値が入力されました");
+
+		}else if(num<30) {
+			System.out.println("雨はまず降らないでしょう");
+
+		}
+
+//		if(0 < num || 100 < num) {
+//			System.out.println("不正な値が入力されました");
+//		} else {
+//			if(100 < num) {
+//				System.out.println("不正な値が入力されました");
+//			}else if(75 <= num) {
+//				System.out.println("雨が降る確率が高いです");
+//
+//			}else if(30 <= num) {
+//				System.out.println("雨が降るかもしれないです");
+//			}
+//		}
+
+	 }
+ }
+
+
+
+
+
+
+
+
