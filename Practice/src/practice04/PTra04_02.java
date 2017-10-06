@@ -13,7 +13,25 @@ public class PTra04_02 {
 
 
 		// ★ 変数indexが100以下である場合繰り返す条件式を記述してください
-		while () {
+
+		for (int index = 1; index<=100; index++) {
+
+
+			if(index  % 15 == 0) {
+				System.out.println("FizzBuzz");
+
+			}else if(index % 3 ==0) {
+				System.out.println("Fizz");
+
+			}else if(index % 5 == 0) {
+				System.out.println("Buzz");
+
+			}else {
+
+
+				System.out.println(index);
+
+
 
 			// ★ 変数indexの値が3でも5でも割り切れる数の場合は、「FizzBuzz」と出力
 
@@ -55,4 +73,6 @@ public class PTra04_02 {
 		 */
 
 	}
+  }
 }
+
