@@ -1,4 +1,5 @@
 package practice08;
+
 /*
  * PTra08_01.java
  *   作成	LIKEIT	2017
@@ -10,9 +11,11 @@ public class PTra08_01 {
 	public static void main(String[] args) {
 
 		// ★ 変数receiveを宣言し、メソッドnumberを実行した結果を代入してください
-
+		int receive = 100;
+		number();
 
 		// ★ 変数receiveを出力してください
+		System.out.println(receive);
 
 	}
 
@@ -22,7 +25,6 @@ public class PTra08_01 {
 	 * 戻り値		：int
 	 * メソッド名	：number
 	 * 引数			：なし
-	 *
 	 * 100を返すメソッド
 	 */
 	public static int number() {

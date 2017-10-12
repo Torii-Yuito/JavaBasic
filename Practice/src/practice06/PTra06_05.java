@@ -6,8 +6,10 @@ package practice06;
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
 
-public class PTra06_05 {
-	public static void main(String[] args) {
+public class PTra06_05
+{
+	public static void main(String[] args)
+	{
 
 		// ★ for文を使って、以下のような出力になるようにしてください
 		/*
@@ -20,13 +22,16 @@ public class PTra06_05 {
 		 * ■■■■■
 		 */
 
-		for(int i = 1; i < 26; i++) {
+		for(int i = 1; i <= 25; i++) {
 			System.out.print("■");
 
-		 if(i % 5 == 0) {
+		 if(i % 5 == 0)
+		 {
 			System.out.println();
 
-	  }
+		 }
+
+
+		}
 	}
-  }
 }

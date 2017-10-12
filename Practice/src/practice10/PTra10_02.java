@@ -13,6 +13,20 @@ public class PTra10_02 {
 	 */
 
 	public static void main(String[] args) {
+		User us = new User();
+		us.userId = 101;
+		System.out.println(us.userId);
+
+		us.userNm = "リゾーム太郎";
+		System.out.println(us.userNm);
+
+		us.mail = "rhizome@hoge.com";
+		System.out.println(us.mail);
+
+		us.password = "1qazxcv";
+		System.out.println(us.password);
+
+
 
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
