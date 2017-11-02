@@ -27,11 +27,10 @@ public class PTra13_04 {
 		/*
 		 * ★ HeroとSlimeを、どちらかが体力０になるまで戦わせます
 		 *
-		 * 	●Heroの攻撃 -> ダメージ判定 -> Slimeの攻撃 -> ダメージ判定
-		 * 上記を繰り返し行います
+		 * ●Heroの攻撃 -> ダメージ判定 -> Slimeの攻撃 -> ダメージ判定 上記を繰り返し行います
 		 */
 
-		while(true) {
+		while (true) {
 			int heroattack = hero.attack();
 			boolean slimedamage = slime.damage(heroattack);
 
@@ -43,17 +42,12 @@ public class PTra13_04 {
 			int slimeattack = slime.attack();
 			boolean herodamage = hero.damage(slimeattack);
 
-			if(herodamage) {
+			if (herodamage) {
 				System.out.println(slime.getName() + "は" + hero.getName() + "との戦闘に勝利した");
 				break;
 			}
 
 		}
-
-
-
-//		hero.attack();
-//		slime.attack();
 
 		// ★ 勝利した方の出力を行ってください。「○○は■■との戦闘に勝利した」
 

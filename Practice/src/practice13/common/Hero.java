@@ -14,8 +14,4 @@ public class Hero extends Character {
 		return super.getName();
 	}
 
-
-
-
-
 }
